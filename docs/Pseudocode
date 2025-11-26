@@ -1,0 +1,50 @@
+#Psuedocode 
+Start Program
+Load JSON file containing patient records
+
+Display menu of features:
+1. Count how many visits a patient has made
+2. List the doctors a patient has consulted
+3. Identify what a patient was diagnosed with
+4. Identify which demographic of patients prefer which doctors
+5. Identify habits of doctor prescription
+6. Exit program
+
+Ask user to choose a feature
+
+IF user chooses 1:
+   Ask user to enter Patient ID
+   Search JSON for patient
+   Count number of visits
+   Display number of visits
+
+ELSE IF user chooses 2:
+   Ask user to enter Patient ID
+   Search JSON for patient
+   Extract list of doctors consulted
+   Display list of doctors
+
+ELSE IF user chooses 3:
+   Ask user to enter Patient ID
+   Search JSON for patient
+   Extract list of diagnoses from all visits
+   Display list of diagnoses
+
+ELSE IF user chooses 4:
+   Ask user to enter doctor name
+   Search JSON for doctor's name and visited patients
+   Group patients by demographic
+   Identify which doctors are most consulted by each demographic
+   Display demographics per doctor
+
+ELSE IF user chooses 5:
+   Ask user to enter doctor name
+   Search JSON for doctor's name and visited patients
+   Identify doctor prescription patterns
+   Display prescription habits per doctor
+
+ELSE IF user chooses 6:
+   End program
+
+Repeat menu until user chooses to exit
+End program
