@@ -8,7 +8,7 @@ Problems like heavy staff workloads and increasing hospital costs is worth solvi
 Write at least 2–3 clear objectives your project aims to achieve. Example:
 
 Objective 1: To analyze and summarize data from the chosen JSON dataset.
-Objective 2: To help users gain meaningful insights (e.g., averages, trends, patterns).
+Objective 2: To help hospital staff gain meaningful information (e.g., which doctors the patient has been appointed to them in previous vists, what medicine have patients been given before, etc).
 Objective 3: To practice JSON handling and Python programming concepts.
 ⚙️ Planned Features
 Your program must have at least 5 features (minimum).
@@ -24,10 +24,10 @@ Feature 5: Identify habits of doctor prescription
 Inputs
 
 What kind of data will the user provide (if any)?
-Example: Patient ID, Doctor name
+Example: Patient ID
 
 What kind of results will your program display?
-Example: class averages, top products, weather summary
+Example: which doctors the patient has been appointed to them in previous vists, what medicine have patients been given before, etc
 🧠 Logic Plan
 Choose ONE way to describe your program’s logic:
 
